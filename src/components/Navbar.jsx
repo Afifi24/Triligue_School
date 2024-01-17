@@ -2,9 +2,9 @@ import React from 'react'
 import Logo from '../assets/Logo.png'
 const Navbar = () => {
   return (
-    <div className='' >
+    <nav className='' >
        {/* desktop navbar */}
-        <nav className=' w-[97%] 2xl:w-[93%] min-h-[15vh] hidden   m-auto lg:flex itmes-center justify-center'>
+        <div className=' w-[97%] 2xl:w-[93%] min-h-[15vh] hidden   m-auto lg:flex itmes-center justify-center'>
              <div className='flex w-full items-center justify-between'>
                  <div>
                     <img className='w-40' src={Logo} alt="" />
@@ -20,11 +20,11 @@ const Navbar = () => {
                     <a className='text-white duration-500 py-4 font-semibold bg-lightYellow px-2 rounded-md' href='#'>Inscriptions</a>
                  </ul>
              </div>
-        </nav>
+        </div>
        {/* mobile navbar */}
        
 
-    </div>
+    </nav>
   )
 }
 

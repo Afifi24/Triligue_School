@@ -12,3 +12,8 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
+
+
+.gradientbg{
+background: linear-gradient(to bottom, #073C69,#022847);
+}
