@@ -9,7 +9,7 @@ const Chart = () => {
     <section>
       <div className='flex items-center justify-center' >
         <img src={vectorLeft} alt="" />
-        <h2 className='uppercase text-5xl font-bold text-center text-pimaryBlue'>notre charte</h2>
+        <h2 className='uppercase text-2xl lg:text-5xl font-bold text-center text-pimaryBlue'>notre charte</h2>
         <img src={vectorRight} alt="" />
 
       </div>

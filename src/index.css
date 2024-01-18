@@ -40,5 +40,12 @@ background: linear-radial(90deg, #073C69,#022847);
     background-position: center;
 }
 .activitebg{
-    background-image: url('./assets/activite.png') ;
+    background-image: url('./assets/raison.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+.activiteitembg{
+    background-image: url('./assets/bg_raison1.png') ;
+
 }
