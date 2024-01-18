@@ -27,15 +27,18 @@ background: linear-radial(90deg, #073C69,#022847);
     box-shadow: 14px 10px 0px rgb(201, 201, 201);
 }
 .chartbg{
-    background-image: url('../src/assets/bg-chart.png');
+    background-image: url('./assets/bg-chart.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
 }
 .hoverTextbg{
-    background-image: url('../src/assets/hovertext.png');
+    background-image: url('./assets/hovertext.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.activitebg{
+    background-image: url('./assets/activite.png') ;
 }
