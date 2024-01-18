@@ -82,7 +82,7 @@ const Activite = () => {
         />
            <img className="absolute h-full object-cover left-1/2 -translate-x-1/2 bottom-0" src={imageRaison} alt="" />
            {/* first part */}
-           <div className=" flex items-center w-full mt-28 bg-red-500   justify-between">
+           <div className=" hidden lg:flex items-center w-full mt-28    justify-between">
                <div className="flex flex-col gap-10">
                     <div className=" relative grid place-items-center left-44  p-2 ">
                         <img className="absolute w-full" src={bgraison1} alt="" />
@@ -104,7 +104,7 @@ const Activite = () => {
                         <img className="absolute w-full" src={bgraison3} alt="" />
                         <div className="flex relative items-center gap-6 justify-center p-3">
                          <img className="" src={raison3} alt="" />
-                         <p className="text-center max-w-[200px] font-semibold ">Une education du 20 siecle alliant excellence et epanouissement</p>
+                         <p className="text-center max-w-[200px] font-semibold text-white ">Une education du 20 siecle alliant excellence et epanouissement</p>
 
                         </div>
                     </div>

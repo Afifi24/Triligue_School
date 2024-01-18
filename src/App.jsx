@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Chart from './components/Chart'
 import Activite from './components/Activite'
+import Cycles from './components/Cycles'
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
      <Hero/>
      <Chart/>
      <Activite/>
+     <Cycles/>
      <Footer/>
     </>
   )
