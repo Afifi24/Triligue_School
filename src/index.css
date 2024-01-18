@@ -10,10 +10,19 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    
+   
 }
 
 
 .gradientbg{
 background: linear-gradient(to bottom, #073C69,#022847);
+}
+.gradientheader{
+background: linear-radial(90deg, #073C69,#022847);
+}
+.loginbg{
+    background: radial-gradient(ellipse at 50% 50%, #073C69 0%, #022847 100%);
+}
+.shadow{
+    box-shadow: 14px 10px 0px rgb(201, 201, 201);
 }

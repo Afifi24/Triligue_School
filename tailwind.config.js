@@ -14,7 +14,9 @@ export default {
       colors:{
         lightYellow:'#F1C30F',
         lightBlue:'#526B84',
-        pimaryBlue:'#073D69'
+        pimaryBlue:'#073D69',
+        primaryYellow:'#EFC30F',
+        lightwhite:'#dbd9d9'
       }
     },
   },
