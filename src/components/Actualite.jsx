@@ -1,11 +1,18 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-
+import claque1 from '../assets/images/Calque 5.png'
+import claque2 from '../assets/images/Calque 7.png'
+import claque3 from '../assets/images/Calque 9.png'
+import claque4 from '../assets/images/Calque 13.png'
+import claque5 from '../assets/images/Calque 14.png'
+import claque6 from '../assets/images/Calque 17.png'
+import claque7 from '../assets/images/Calque 20.png'
+import claque8 from '../assets/images/Calque 24.png'
 const Actualite = () => {
   return (
     <div className='  '>
-    <div className='w-[95%]  md:w-[90%] m-auto md:pt-28 pb-8 '>
+    <div className=' md:pt-28 pb-8 '>
        <div className='my-28'>
           <Swiper
              spaceBetween={50}
@@ -19,43 +26,31 @@ const Actualite = () => {
                   slidesPerView: 2,
                 },
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
                 },
                 1024: {
-                  slidesPerView: 3,
+                  slidesPerView: 4,
                 },
               }}
              >
               <SwiperSlide>
-                 <div className='flex gap-3 items-center justify-center flex-col'>
-                    <div className=' border1'>
-                    <img src="https://lacremamalta.com/wp-content/uploads/2023/04/margherita_pizza-la_crema_malta_home-480x480.png.webp" alt="" />
-                    </div>
-                    <p>Margherita Pizza</p>
+                 <div className=''>
+                    <img src={claque1} alt="" />
                  </div>
               </SwiperSlide>
               <SwiperSlide>
-                 <div className='flex gap-3 items-center justify-center flex-col'>
-                   <div className=' border2'>
-                    <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Napoli_Pizza-La_Crema__Malta_home-480x480.png.webp" alt="image" />
-                    </div>
-                    <p>Napoli Pizza</p>
+              <div className=''>
+                    <img src={claque2} alt="" />
                  </div>
               </SwiperSlide>
               <SwiperSlide>
-                 <div className='flex gap-3 items-center justify-center flex-col'>
-                   <div className=' border3'>
-                    <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Friarielli_e_salsiccia_pizza-La_Crema_Malta_home-480x480.png.webp" alt="image" />
-                    </div>
-                    <p>Friarielli E Salsiccia</p>
-                 </div>
+              <div className=''>
+                    <img src={claque3} alt="" />
+              </div>
               </SwiperSlide>
               <SwiperSlide>
-                 <div className='flex gap-3 items-center justify-center flex-col'>
-                   <div className=' border4'>
-                    <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pizza_Vegetariana-La_Crema_Malta_home-480x480.png.webp" alt="image" />
-                    </div>
-                    <p>Vegeteriana Pizza</p>
+              <div className=''>
+                    <img src={claque4} alt="" />
                  </div>
               </SwiperSlide>
               <SwiperSlide>
