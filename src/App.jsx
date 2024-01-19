@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Chart from './components/Chart'
 import Activite from './components/Activite'
 import Cycles from './components/Cycles'
+import Actualite from './components/Actualite'
 const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const App = () => {
      <Chart/>
      <Activite/>
      <Cycles/>
+     <Actualite/>
      <Footer/>
     </>
   )

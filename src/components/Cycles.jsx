@@ -5,11 +5,12 @@ import child1 from "../assets/early.png";
 import child2 from "../assets/primary.png";
 import child3 from "../assets/lower-secondary.png";
 import child4 from "../assets/upper-secondary.png";
+import vieScolaire from '../assets/bg_title_vieScolaire.png'
 const Cycles = () => {
   return (
     <section>
-      <div className="flex items-center gap-14 mt-10 w-[80%] 2xl:w-[60%] 2xl:gap-44 m-auto">
-        <div className="text-red-500 font-bold text-2xl lg:text-4xl">
+      <div className="flex items-center gap-4 lg:gap-14 mt-10 w-[90%] lg:w-[80%] 2xl:w-[60%] 2xl:gap-44 m-auto">
+        <div className="text-red-500 font-bold text-xl lg:text-4xl">
           <p>
             Photos will <br className="hidden lg:block" />
             be changed
@@ -51,6 +52,10 @@ const Cycles = () => {
           <div className="inset-0 absolute bg-black bg-opacity-25"/>
           <h2 className="text-4xl absolute bottom-12 left-8 font-bold text-white">Lycee</h2>
         </div>
+      </div>
+      <div className="mt-2 relative ">
+            <img className="w-full h-auto" src={vieScolaire} alt="" />
+            <h1 className="font-semibold text-2xl lg:text-5xl absolute right-4 lg:right-[20%] 2xl:text-7xl text-white uppercase top-1/2 -translate-y-1/2 ">vie scolaire</h1>
       </div>
     </section>
   );
