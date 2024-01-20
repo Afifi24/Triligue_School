@@ -17,6 +17,10 @@ export default {
         pimaryBlue:'#073D69',
         primaryYellow:'#EFC30F',
         lightwhite:'#dbd9d9'
+      },
+      backgroundImage:{
+      'text-gradient':'linear-gradient(to left, #fff 84%, #151515 16%)'
+      
       }
     },
   },

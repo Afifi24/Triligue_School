@@ -11,78 +11,27 @@ import claque7 from '../assets/images/Calque 20.png'
 import claque8 from '../assets/images/Calque 24.png'
 const Actualite = () => {
   return (
-    <div className='  '>
-    <div className=' md:pt-28 pb-8 '>
-       <div className='my-28'>
-          <Swiper
-             spaceBetween={50}
-              grabCursor= {true}
-              scrollbar={{ draggable: true }}
-              resistance={false}
-              freeMode={true} 
-              loop={true}
-              breakpoints={{
-                640: {
-                  slidesPerView: 2,
-                },
-                768: {
-                  slidesPerView: 3,
-                },
-                1024: {
-                  slidesPerView: 4,
-                },
-              }}
-             >
-              <SwiperSlide>
-                 <div className=''>
-                    <img src={claque1} alt="" />
-                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className=''>
-                    <img src={claque2} alt="" />
-                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className=''>
-                    <img src={claque3} alt="" />
-              </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className=''>
-                    <img src={claque4} alt="" />
-                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                 <div className='flex gap-3 items-center justify-center flex-col'>
-                    <div className=' border5'>
-                    <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Calzone_Classico-La_Crema_Malta_home-480x480.png.webp" alt="image" />
-                    </div>
-                    <p>Calzone Classico</p>
-                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                 <div className='flex gap-3 items-center justify-center flex-col'>
-                 <div className=' border3'>
-                    <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pizza_La_Crema-La_Crema_Malta_home-480x480.png.webp" alt="image" />
-                    </div>
-                    <p>La Creme Pizza</p>
-                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                 <div className='flex gap-3 items-center justify-center flex-col'>
-                   <div className=' border2'>
-                    <img src="https://lacremamalta.com/wp-content/uploads/2023/04/Pizza_Balluta-La_Crema_Malta_home-480x480.png.webp" alt="image" />
-                    </div>
-                    <p>Balluta Pizza</p>
-                 </div>
-              </SwiperSlide>
-              
-              
- 
-          </Swiper>
+    <div className=' w-[96%]   ml-auto flex flex-wrap justify-between my-10'>
+       <div className=' w-full  relative lg:w-auto'>
+         <img className='w-full  lg:w-auto' src={claque1} alt="" />
+          <div className='  absolute bottom-20 text-5xl -left-8  flex'>
+                 <h1 className=' font-[800] font-headings uppercase  bg-text-gradient text-transparent bg-clip-text'> <span className=''>activites</span> <br /> <span className=''>sportives</span> </h1>
+
+             </div>
        </div>
-   </div>
+       <div className='w-full  lg:w-auto'>
+         <img className='w-full  lg:w-auto' src={claque2} alt="" />
+       </div>
+       <div className='w-full lg:w-auto '>
+         <img className='w-full  lg:w-auto' src={claque3} alt="" />
+       </div>
+       <div className='w-full lg:w-auto '>
+         <img className='w-full  lg:w-auto'  src={claque4} alt="" />
+       </div>
+       <div className=' hidden bg-white xl:flex xl:col-span-2 text-white relative'>
+                 <h1 className='text-xl leading-xl absolute top-[38%] -right-[45%] -translate-y-1/2  font-[800] font-headings  bg-text-gradient text-transparent bg-clip-text'> <span className=''>MODERN</span> <br /> <span className=''>ART GALLERY</span> </h1>
+
+             </div>
 </div>
   )
 }
