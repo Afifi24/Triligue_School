@@ -49,3 +49,6 @@ background: linear-radial(90deg, #073C69,#022847);
     background-image: url('./assets/bg_raison1.png') ;
 
 }
+.my-text {
+    text-shadow: 1px 1px 0px rgba(138, 134, 134, 0.2);
+  }

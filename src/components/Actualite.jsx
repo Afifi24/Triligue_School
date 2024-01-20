@@ -14,24 +14,35 @@ const Actualite = () => {
     <div className=' w-[96%]   ml-auto flex flex-wrap justify-between my-10'>
        <div className=' w-full  relative lg:w-auto'>
          <img className='w-full  lg:w-auto' src={claque1} alt="" />
-          <div className='  absolute bottom-20 text-5xl -left-8  flex'>
-                 <h1 className=' font-[800] font-headings uppercase  bg-text-gradient text-transparent bg-clip-text'> <span className=''>activites</span> <br /> <span className=''>sportives</span> </h1>
+          <div className='  absolute bottom-20 text-4xl 2xl:text-5xl -left-5 lg:-left-5 2xl:-left-8  flex'>
+                 <h1 className=' font-[800] my-text  uppercase  bg-text-gradient1 text-transparent max-w-[258px] bg-clip-text'> <span className=''>activites</span> <br /> <span className=''>sportives</span> </h1>
 
              </div>
        </div>
-       <div className='w-full  lg:w-auto'>
+       <div className='w-full relative  lg:w-auto'>
+        
+          
          <img className='w-full  lg:w-auto' src={claque2} alt="" />
+        
+         <div className='  absolute bottom-20 text-4xl 2xl:text-5xl -left-5 lg:-left-6 2xl:-left-8  flex'>
+                 <h1 className=' font-[800]  uppercase  bg-text-gradient2 my-text text-transparent w-fit bg-clip-text  '> <span className=''>activites</span> <br /> <span className=''>culturelles</span> </h1>
+             </div>
        </div>
-       <div className='w-full lg:w-auto '>
+       <div className='w-full relative lg:w-auto '>
          <img className='w-full  lg:w-auto' src={claque3} alt="" />
+         <div className='  absolute bottom-20 text-4xl 2xl:text-5xl -left-5 lg:-left-5 2xl:-left-28  flex'>
+                 <h1 className=' font-[800]  uppercase my-text bg-text-gradient4 2xl:bg-text-gradient3 text-transparent w-fit bg-clip-text '> <span className=''>activites</span> <br /> <span className=''>extrascolaires</span> </h1>
+
+          </div>
        </div>
-       <div className='w-full lg:w-auto '>
+       <div className='w-full relative lg:w-auto '>
          <img className='w-full  lg:w-auto'  src={claque4} alt="" />
-       </div>
-       <div className=' hidden bg-white xl:flex xl:col-span-2 text-white relative'>
-                 <h1 className='text-xl leading-xl absolute top-[38%] -right-[45%] -translate-y-1/2  font-[800] font-headings  bg-text-gradient text-transparent bg-clip-text'> <span className=''>MODERN</span> <br /> <span className=''>ART GALLERY</span> </h1>
+         <div className='  absolute bottom-20 text-4xl 2xl:text-5xl -left-5 lg:-left-5 2xl:-left-8   flex'>
+                 <h1 className='  font-[800]  uppercase my-text  bg-text-gradient1 text-transparent max-w-[258px] bg-clip-text'> <span className=''>activites</span> <br /> <span className=''>sociales</span> </h1>
 
              </div>
+       </div>
+       
 </div>
   )
 }
