@@ -7,6 +7,7 @@ import Chart from './components/Chart'
 import Activite from './components/Activite'
 import Cycles from './components/Cycles'
 import Actualite from './components/Actualite'
+import LifeSchool from './components/LifeSchool'
 const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const App = () => {
      <Activite/>
      <Cycles/>
      <Actualite/>
+     <LifeSchool/>
      <Footer/>
     </>
   )
