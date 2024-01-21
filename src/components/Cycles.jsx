@@ -8,7 +8,7 @@ import child4 from "../assets/upper-secondary.png";
 import vieScolaire from '../assets/bg_title_vieScolaire.png'
 const Cycles = () => {
   return (
-    <section>
+    <section id="Vie Scolaire">
       <div className="flex items-center gap-4 lg:gap-14 mt-10 w-[90%] lg:w-[80%] 2xl:w-[60%] 2xl:gap-44 m-auto">
         <div className="text-red-500 font-bold text-xl lg:text-4xl">
           <p>

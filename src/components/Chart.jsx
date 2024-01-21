@@ -6,7 +6,7 @@ import heroChart from '../assets/hero-charte.png'
 
 const Chart = () => {
   return (
-    <section>
+    <section id='Academique'>
       <div className='flex items-center justify-center' >
         <img src={vectorLeft} alt="" />
         <h2 className='uppercase text-2xl lg:text-5xl font-bold text-center text-pimaryBlue'>notre charte</h2>

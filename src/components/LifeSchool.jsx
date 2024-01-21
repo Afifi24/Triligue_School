@@ -11,7 +11,7 @@ import claque7 from '../assets/images/Calque 20.png'
 import claque8 from '../assets/images/Calque 24.png'
 const Actualite = () => {
   return (
-    <div className=' w-[98%]   mr-auto flex flex-wrap justify-between  my-10'>
+    <div id='Actualitees' className=' w-[98%]   mr-auto flex flex-wrap justify-between  my-10'>
        <div className=' w-full  relative lg:w-auto'>
          <img className='w-full  lg:w-auto' src={claque5} alt="" />
           <div className='  absolute bottom-20 text-4xl 2xl:text-5xl -left-5 lg:-left-14 2xl:-left-16  flex'>

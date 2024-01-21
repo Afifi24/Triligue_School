@@ -6,11 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
+ 
 body{
     font-family: 'Poppins', sans-serif;
-   
+    
 }
 
 
@@ -52,3 +54,5 @@ background: linear-radial(90deg, #073C69,#022847);
 .my-text {
     text-shadow: 1px 1px 0px rgba(138, 134, 134, 0.2);
   }
+
+

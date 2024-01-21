@@ -3,7 +3,7 @@ import drimage from "../assets/dr.jfif";
 import playimg from '../assets/play.png'
 const Hero = () => {
   return (
-    <div className="my-20">
+    <div id="Notre Ecole" className="my-20">
       <div className="  gap-4 flex flex-col   items-center text-center ">
         <div className="font-bold uppercase text-3xl lg:text-4xl 2xl:text-5xl space-y-2 2xl:space-y-4 text-pimaryBlue">
           <h1>bienvenue</h1>

@@ -10,7 +10,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className='  text-white'>
+    <footer id='Conctactez nous' className='  text-white'>
         <div className='gradientbg'>
         <div className='w-[97%]  m-auto  2xl:w-[93%]'>
               <div className='grid  gap-10 2xl:gap-16 py-8  px-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-7 place-items-start '>

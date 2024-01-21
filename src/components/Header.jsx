@@ -4,7 +4,7 @@ import vectorLeft from '../assets/vector-left.png'
 import vectorRight from '../assets/vector-right.png'
 const Header = () => {
   return (
-    <div className='relative  loginbg'>
+    <div id='Accueil' className='relative mt-[60px] lg:mt-[87px] pt-2 loginbg'>
         <div className='flex items-center justify-center'>
             <img className='w-[60%] lg:w-auto' src={headerimg} alt="" />
         </div>

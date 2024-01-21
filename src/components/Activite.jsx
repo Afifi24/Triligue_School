@@ -21,7 +21,7 @@ import bgraison6 from '../assets/bg_raison6.png'
 const Activite = () => {
   return (
     <>
-      <section>
+      <section id="Admessions">
         <div className=" relative min-h-screen mt-20 lg:m-0 ">
           <img
             className="absolute  sm:w-2/3 lg:w-1/3 object-cover left-0 top-0"
