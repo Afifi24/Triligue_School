@@ -13,9 +13,9 @@ const Chart = () => {
         <img src={vectorRight} alt="" />
 
       </div>
-      <div className='min-h-screen chartbg bg-lightYellow'>
+      <div className=' chartbg '>
         <div className='flex flex-col lg:flex-row mt-4 lg:mt-0  items-center lg:justify-around'>
-                 <div className='flex flex-1 text-sm md:text-sm lg:text-lg 2xl:text-2xl flex-col gap-16 2xl:gap-32 p-6 2xl:mt-32 text-pimaryBlue font-semibold'>
+                 <div className='hidden lg:flex flex-1 text-sm md:text-sm lg:text-lg 2xl:text-2xl flex-col gap-16 2xl:gap-32 p-6 2xl:mt-32 text-pimaryBlue font-semibold'>
                       <div className='lg:w-[400px] grid place-items-center'>
                         <p className='max-w-[300px] 2xl:max-w-[400px] text-center'>Assurer a l'enfant une securite affective et physique</p>
                       </div>
@@ -29,7 +29,7 @@ const Chart = () => {
              <div>
              <img className='flex-1 w-32 md:w-auto ' src={heroChart} alt="" />
              </div>
-              <div className='flex flex-1  flex-col gap-16 p-6 mt-28 text-pimaryBlue text-sm md:text-sm lg:text-lg 2xl:text-2xl 2xl:gap-32 2xl:mt-64 font-semibold'>
+              <div className='hidden lg:flex flex-1  flex-col gap-16 p-6 mt-28 text-pimaryBlue text-sm md:text-sm lg:text-lg 2xl:text-2xl 2xl:gap-32 2xl:mt-64 font-semibold'>
                       <div className='lg:w-[400px] grid place-items-center'>
                         <p className='max-w-[300px]  text-center'>Favoriser l'eveil et l'autonomie de l'enfant</p>
                       </div>

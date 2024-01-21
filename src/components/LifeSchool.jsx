@@ -14,7 +14,7 @@ const Actualite = () => {
     <div id='Actualitees' className=' w-[98%]   mr-auto flex flex-wrap justify-between  my-10'>
        <div className=' w-full  relative lg:w-auto'>
          <img className='w-full  lg:w-auto' src={claque5} alt="" />
-          <div className='  absolute bottom-20 text-4xl 2xl:text-5xl -left-5 lg:-left-14 2xl:-left-16  flex'>
+          <div className='  absolute bottom-20 text-4xl 2xl:text-5xl -left-8  lg:-left-14 2xl:-left-16  flex'>
                  <h1 className=' font-[800] my-text  uppercase  bg-text-gradient1 text-transparent max-w-[258px] bg-clip-text'> <span className=''>parties</span> <br /> <span className=''>Scolaires</span> </h1>
 
              </div>
