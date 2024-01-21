@@ -1,6 +1,5 @@
 import React from "react";
-import drimage from "../assets/dr.jfif";
-import playimg from '../assets/play.png'
+import { heroData } from "../data";
 const Hero = () => {
   return (
     <div id="Notre Ecole" className="my-20">
@@ -22,17 +21,17 @@ const Hero = () => {
             <div className="max-w-lg relative 2xl:max-w-2xl 2xl:text-xl text-lightwhite">
                 <h2 className="font-bold text-3xl mb-4 uppercase max-w-lg">mot du directeur</h2>
                 <p>Chers parents,</p>
-                <p >Fonde en 1921, notre etablissement scolaire perpetue une tradition marquee par la quete de l'excellence dans tous nos projects. Nous proposons une pedagogie educative basee sur la reussite, l'epanouissement, la responsabilisation et la confiance afin de preparer, activement, nos eleves au monde de demain. <span className="text-lightYellow cursor-pointer">Lire la suite</span>
+                <p >{heroData.desc} <span className="text-lightYellow cursor-pointer">Lire la suite</span>
                 </p>
                  <div className="absolute uppercase cursor-pointer  flex items-center gap-2  bottom-8 lg:bottom-4 left-2">
-                     <img  src={playimg} alt="" />
+                     <img  src={heroData.playimg} alt="" />
                      <p >play video</p>
                  </div>
             </div>
             </div>
         </div>
         <div className="flex-2 relative -top-10 lg:top-0 lg:-left-10 shadow">
-          <img className="" src={drimage} alt="" />
+          <img className="" src={heroData.drimage} alt="" />
         </div>
       </div>
     </div>

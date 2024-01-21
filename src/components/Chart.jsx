@@ -28,7 +28,6 @@ const Chart = () => {
                  </div>
              <div>
              <img className='flex-1 w-32 md:w-auto ' src={heroChart} alt="" />
-             {/* <img className='absolute bottom-0 left-1/2 -translate-x-1/2' src={heroChart} alt="" /> */}
              </div>
               <div className='flex lg:flex flex-1  flex-col gap-16 p-6 lg:mt-28 text-pimaryBlue text-sm md:text-sm lg:text-lg 2xl:text-2xl 2xl:gap-32 2xl:mt-64 font-semibold'>
                       <div className='lg:w-[400px] grid place-items-center'>

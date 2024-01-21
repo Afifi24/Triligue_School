@@ -1,7 +1,5 @@
 import React from 'react'
 import headerimg from '../assets/header.png'
-import vectorLeft from '../assets/vector-left.png'
-import vectorRight from '../assets/vector-right.png'
 const Header = () => {
   return (
     <div id='Accueil' className='relative mt-[60px] lg:mt-[87px] pt-2 loginbg'>
